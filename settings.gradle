@@ -1,1 +1,3 @@
 rootProject.name = 'alland'
+include 'server'
+findProject(':server')?.name = 'alland'
